@@ -1,0 +1,27 @@
+.ordertrack
+{ display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.ordertrack__month
+{
+    color: #434343;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.ordertrack__year
+{
+    margin-bottom: 0 0 5px 0;
+    color: #434343;
+    
+}
+.ordertrack__date
+{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,182 @@
+.mealitem-container
+{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;    
+    border-radius: 10px;
+    border: 1px solid  rgba(0, 0, 0, 0.699) ;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.653);
+    transition: transform 0.3s ease ;
+}
+
+.mealitem-container:hover
+{
+    transform: translateY(-5px);
+}
+
+.img-container
+{
+    position: relative;
+    margin:  0;
+    padding: 0 ;
+    width: 100%;
+    height: 10rem;
+    border-radius: 10px 10px 0 0 ;
+    overflow: hidden;
+
+}
+.img-container img
+{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.img-container p
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: coral;
+    border-radius: 0 5px 0 0;
+    text-align: center;
+    padding: 0.1rem 0.5rem;
+    color: white;
+
+}
+
+.img-action
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.overlay
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background: radial-gradient(circle, transparent 10%, hsla(0, 0%, 0%, 0.7) 100%);
+}
+.img-container:hover .overlay
+{
+  opacity: 1;
+}
+
+
+.img-container:hover .img-action
+{
+    display: block;
+}
+
+.view-action
+{
+    background-color: coral;
+    color: white;
+}
+
+.view-action:hover
+{
+    background-color: rgb(252, 118, 69);
+    opacity: 1;
+}
+
+.meal
+{
+padding: 0.75rem;
+flex-direction: column;
+}
+
+.meal-name-container
+{
+font-size: 1rem;
+font-weight: 600;
+font-family: "Josefin Sans", sans-serif;
+letter-spacing: 0.5px;
+}
+
+.meal-discription-container
+{
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.meal-amount
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid lightgrey;
+}
+
+.meal-amount p:first-child
+{
+    font-weight: 600;
+    color: coral;
+}
+
+.meal-action
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.meal-action p
+{
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+}
+
+.meal-action .button
+{
+ width: 1.75rem;
+ height: 2rem;
+border-radius: 3px;
+font-size: 1.2rem;
+font-weight: 450;
+text-align: center;
+padding: 0;
+background-color: coral;
+color: white;
+}
+
+.cart-action
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0.5rem;
+
+}
+
+.cart-button
+{
+    background-color: coral;
+    color: white;
+    font-weight: 450;
+    border-radius: 0 1rem 1rem 0;
+    padding:0.5rem 0.25rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cart-button:active
+{
+    transform: scale(1.2);
+}
+
+
+

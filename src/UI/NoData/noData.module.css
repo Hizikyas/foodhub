@@ -1,0 +1,12 @@
+.centered
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    height: 30rem;
+}
+.centered h1
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+}

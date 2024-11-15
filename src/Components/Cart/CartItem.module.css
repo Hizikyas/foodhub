@@ -1,0 +1,165 @@
+.cart-item
+{
+    width: 95%;
+    margin: 0 auto 0.5rem;
+    padding-bottom:0.5rem ;
+    padding-top:0.5rem ;
+    border-radius: 0 ;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.559);
+    display: flex;
+    gap: 0.75rem;
+}
+
+.cart-item-details
+{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.row-1
+{
+    justify-content: space-between;
+    display: flex;
+}
+.img-meal-info
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.75rem;
+}
+.img-container
+{   margin: auto 0;
+    width: 120px;
+    height: 100px;
+    background-color: red;
+    border-radius: 9px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.img-container img
+{
+width: 120px;
+height: auto;
+object-fit: cover;
+}
+
+.mealname-price
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    }
+.mealname-price p:first-child
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.mealname-price p:last-child
+{
+   color: coral;
+   font-weight: 550;
+   font-size: 1.1rem;
+}
+
+.mealname-price p span
+{
+    margin-left: 0.5rem;
+    color: black;
+    border: 1.5px solid #434343;
+    border-radius: 3px;
+    padding: 0rem 0.45rem;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 1.7rem ;
+    height: 1.1rem;
+}
+.amount-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.amount-input
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.3rem;
+
+}
+.amount-info p:first-child
+{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.amount-input p
+{
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+}
+
+.amount-input .button
+{
+    width: 2.2rem;
+    height: 2.5rem;
+    background-color: #FF9800;
+    border-radius: 5px;
+}
+
+.row-2
+{
+    display: flex;
+    justify-content: start;
+    padding: 0rem 0.25rem ;
+    font-style: italic;
+    padding: 0.5rem 0.25rem ;
+}
+.row-2 div
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 33%;
+}
+.row-2 p:first-child
+{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 0.3rem;
+}
+.row-2 p:last-child
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: salmon;
+    text-align: center;
+}
+
+.close-icon
+{
+    color: red;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.close-icon:hover
+{
+    background-color: rgb(217, 2, 2);
+    color: white;
+}

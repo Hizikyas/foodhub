@@ -1,0 +1,10 @@
+.meal-list-container
+{
+    width: 95%;
+    margin: 2rem auto 1rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill ,  minmax(250px , 1fr));
+    gap: 2rem;
+
+}

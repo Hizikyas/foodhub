@@ -1,0 +1,16 @@
+.order-list
+{
+    list-style: none;
+    width: 100%;
+    padding: 1rem ;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 600;
+}

@@ -1,0 +1,53 @@
+
+@keyframes slideIn {
+    0% {
+      top: -3rem;
+    }
+    100% {
+      top: 0.5rem;
+    }
+  }
+  
+  .notify {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    width: 20rem;
+    height: 4rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    animation: slideIn 0.7s ease-out forwards;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .success {
+    background-color: #4caf50;
+    box-shadow: 0 0 1rem lightgreen;
+  }
+  
+  .error {
+    background-color: #f44336;
+    box-shadow: 0 0 1rem lightcoral;
+  }
+  
+  .remove {
+    display: none;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+  
+  .notify p {
+    margin-right: 0.7rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  

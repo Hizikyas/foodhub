@@ -1,0 +1,33 @@
+.order-list
+{
+    width: 55rem;
+    height: 28rem;
+    margin: 6rem auto 5rem;
+    overflow-y: auto;
+
+}
+.order-list::-webkit-scrollbar
+{
+    display: none;
+}
+
+.container
+{
+    display: flex;
+    width: 70rem;
+    height: 33rem;
+    margin:3rem auto ;
+    justify-content: center;
+}
+
+.button
+{
+    width: 8.5rem;
+    height: 2rem;
+    position: fixed;
+    right: 7rem;
+    top: 7rem;
+    border-radius: 10px;
+    background-color: #023047;
+    color: ivory;
+}

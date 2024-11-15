@@ -1,0 +1,16 @@
+.button-action {
+  width: 7rem;
+  border-radius: 1rem;
+  border: none;
+  text-align: center;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.button-action:hover,
+.button-action:active {
+  outline: none;
+  opacity: 0.75;
+  box-shadow: 0 0 -5px rgb(0, 0, 0, 0.75);
+}
+

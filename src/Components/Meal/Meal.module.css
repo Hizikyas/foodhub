@@ -1,0 +1,93 @@
+.welcome-title
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6.5rem;
+    letter-spacing: 1px;
+
+}
+
+.welcome-title h2
+{
+
+    padding-left: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.welcome-title h2 span
+{
+    color: #434343;
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 0.6rem;
+}
+
+.form-container
+{
+
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    margin-top: 1rem;
+}
+
+.form-container .input-box
+{
+    width: 30rem;
+    padding: 0.25rem .75rem;
+    border: 2px solid black;
+    border-radius: 5px 0 0 5px ;
+}
+
+.form-container .input-box:hover , .form-container .input-box:active  , .form-container .input-box:focus
+{
+    outline: none;
+}
+
+
+.form-container .button-action
+{
+    width: 2.5rem;
+    background-color:#64B5F6;
+    color: ivory;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+
+.form-container .button-action:hover
+{
+opacity: 0.8;
+}
+
+.search-result
+{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+/* ------------------------------error---------------------------- */
+.disabled-button , .disabled-button:hover , .disabled-button:active
+{
+    cursor: not-allowed;
+    width: 2.5rem;
+    background-color:#64B5F6;
+    color: ivory;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.3rem;
+    padding-top: 5px;
+
+}
+.not-found
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: em;
+
+}

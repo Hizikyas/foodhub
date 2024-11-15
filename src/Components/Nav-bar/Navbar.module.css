@@ -1,0 +1,97 @@
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30rem;
+    align-items: center;
+    height: 10vh;
+    background-color: #000000;
+    z-index: 10000;
+    color: white;
+
+}
+
+.navbar .title
+{
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+.navlink
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navlink li a
+{
+    text-decoration: none;
+    /* color: #333 ; */
+    color: ivory ;
+
+}
+
+.navlink li a:hover
+{
+    /* color: #007bff; */
+    color: green;
+}
+
+.navlink li a.active , .navlink li a:active ,  .navlink li a:focus
+
+{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    /* text-decoration-color: black; */
+    text-decoration-color: white;
+}
+
+
+.navlink .button
+{
+    margin-left: 1.5rem;
+    background-color: #dc3545;
+    color: black;
+    border-radius: 1rem;
+    width: 7rem;
+}
+
+.navlink .button:hover
+{
+    background-color: #c82333;
+}
+.boop {
+    animation: show 0.7s ease;
+}
+
+@keyframes show {
+    0% {
+        transform: scale(1.2);
+        color: coral;
+    }
+    25% {
+        transform: scale(1.4);
+        color: coral;
+    }
+    50% {
+        transform: scale(1.8);
+        color: coral;
+    }
+    75% {
+        transform: scale(1.4);
+        color: coral;
+    }
+    100% {
+        transform: scale(1.2);
+        color: coral;
+    }
+}
+
